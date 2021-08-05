@@ -1,0 +1,62 @@
+.main {
+    height:100%;
+    width:70%;
+    margin:235px auto;
+    background-color: rgba(255, 255, 255, 0.438);
+    border-radius:10px;
+    font-family:"Bree Serif";
+}
+
+.btn {
+    font-family:"Bree Serif";
+    background-color: rgb(206, 158, 1);
+    padding:10px;
+    border:none;
+    border-radius:5px;
+    width: 150px;
+    margin:20px;
+    align-self: center;
+}
+
+.btn:hover {
+    background-color: rgb(206, 134, 1);
+}
+
+.options {
+    font-family:"Bree Serif";
+    background-color: rgba(250, 250, 250, 0.637);
+    padding:5px;
+    padding-left:10px;
+    font-size: 0.8em;
+    border:none;
+    border-radius:5px;
+    width: 100px;
+    margin:5px;
+    align-self: center;
+    display:flex;
+    justify-content: space-between;
+}
+
+.countryList {
+    margin-top:10px;
+    padding:24px;
+    display:flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.close {
+    border-radius:2px;
+    background-color: rgb(255, 255, 255);
+    font-size: 0.6em;
+    width:1.2em;
+    height:1.5em;
+    text-align: center;
+    padding: 2px;
+    transition: ease 0.2s;
+}
+
+.close:hover {
+    background-color: rgb(24, 23, 23);
+    color:white
+}

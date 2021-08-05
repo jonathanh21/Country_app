@@ -1,0 +1,118 @@
+.continent {
+    transition: all 0.3s ease-out;
+    align-self: center;
+    text-decoration: none;
+    margin-top: 25px;
+    color:white;
+    text-shadow: 1px 1px 2px black;
+}
+
+.asia {
+    font-family: "Bree Serif";
+    background-image:url('../../../../img/asia.png');
+    padding:40px 20px;
+    transition: all 0.1s ease-out;
+    background-size: 3em ;
+    background-position:center;
+    background-repeat: no-repeat;
+    text-decoration:none;
+    font-size:1.5em;
+}
+
+
+.oceania {
+    font-family: "Bree Serif";
+    background-image:url('../../../../img/oceania.png');
+    padding:40px 0;
+    transition: all 0.1s ease-out;
+    background-size: 3em ;
+    background-position:center;
+    background-repeat: no-repeat;
+    text-decoration:none;
+    font-size:1.5em;
+}
+
+.africa {
+    font-family: "Bree Serif";
+    background-image:url('../../../../img/africa1.jpg');
+    padding:40px 20px;
+    transition: all 0.1s ease-out;
+    background-size: 3em ;
+    background-position:center;
+    background-repeat: no-repeat;
+    text-decoration:none;
+    font-size:1.5em;
+}
+
+.polar {
+    font-family: "Bree Serif";
+    background-image:url('../../../../img/polar.png');
+    padding:40px 0;
+    transition: all 0.1s ease-out;
+    background-size: 3em ;
+    background-position:center;
+    background-repeat: no-repeat;
+    text-decoration:none;
+    font-size:1.5em;
+}
+
+.europe {
+    font-family: "Bree Serif";
+    background-image:url('../../../../img/europe.png');
+    padding:40px 0;
+    transition: all 0.1s ease-out;
+    background-size: 3em ;
+    background-position:center;
+    background-repeat: no-repeat;
+    text-decoration:none;
+    font-size:1.5em;
+}
+
+.americas {
+    font-family: "Bree Serif";
+    background-image:url('../../../../img/america1.png');
+    transition: all 0.1s ease-out;
+    background-size: 3em ;
+    background-position:center;
+    background-repeat: no-repeat;
+    text-decoration:none;
+    font-size:1.5em;
+    padding: 60px 0;
+}
+
+.continent:hover {
+    font-size: 1.1em;
+    color:rgba(255, 255, 255, 0.822)
+}
+
+.menu {
+    display:flex;
+    list-style-type: none;
+    flex-direction: column;
+    margin-top:10px;
+}
+
+.menu1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width:150px;
+    width:200px;
+    margin-left:50px;
+    align-self: flex-start;
+    margin-top:20px;
+}
+
+.text {
+    align-self: center;
+    justify-self: center;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color:rgb(255, 255, 255);
+    font-family: "Bree Serif";
+    width:200px;
+    font-size:2.3em;
+    text-shadow: 1px 1px 2px black;
+}

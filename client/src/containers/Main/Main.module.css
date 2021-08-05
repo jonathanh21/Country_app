@@ -1,0 +1,61 @@
+.main {
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    align-self:flex-start;
+}
+
+.left {
+    background-color: rgba(66, 184, 178, 0.548);
+    width:100%;
+    position:relative;
+    background-size: cover;
+}
+
+
+.container {
+    display: flex;
+    align-items:flex-end
+}
+
+.mCont {
+    display:flex;
+    flex-direction: column;
+}
+
+.right {
+    font-family: "Bree Serif";
+    color: white;
+    display:flex;
+    flex-direction: column;
+    padding-top: 4rem;
+    text-shadow: 1px 1px 2px black;
+}
+
+.right h1 {
+    text-align: left;
+    font-size:3rem;
+    padding-top: 20px;
+}
+
+.right p {
+    text-align: left;
+    padding: 20px 0;
+    padding-bottom: 40px;
+}
+
+.up {
+    display:flex;
+    margin:0 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.178);
+}
+
+.content {
+    display:flex;
+    justify-content: center;
+}
+
+
+
+
+

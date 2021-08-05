@@ -1,0 +1,102 @@
+.main {
+    height:100%;
+    width:70%;
+    margin:150px auto;
+    background-color: rgba(255, 255, 255, 0.438);
+    border-radius:10px;
+    font-family:"Bree Serif"
+}
+
+.form {
+    display:flex;
+    flex-direction: column;
+}
+
+.input {
+    height:2rem;
+    border-radius: 5px;
+    border:none;
+    padding-left:8px;
+    margin:5px 20px;
+    font-family:"Bree Serif"
+}
+
+.inputS {
+    height:2rem;
+    border-radius: 5px;
+    border:none;
+    padding-left:8px;
+    margin:5px 20px;
+    font-family:"Bree Serif";
+    width:50%
+}
+
+label {
+    align-self: left;
+    text-align: left;
+    padding:0 20px;
+    padding-bottom:1px;
+    font-size:0.9em;
+    color:black;
+}
+
+.title {
+    padding-top:30px;
+    padding-bottom:20px;
+    font-size:2rem;
+}
+
+.btn {
+    font-family:"Bree Serif";
+    background-color: rgb(206, 158, 1);
+    padding:10px;
+    border:none;
+    border-radius:5px;
+    width: 150px;
+    margin:20px;
+    align-self: center;
+}
+
+.btn:hover {
+    background-color: rgb(206, 134, 1);
+}
+
+.options {
+    font-family:"Bree Serif";
+    background-color: rgba(250, 250, 250, 0.637);
+    padding:5px;
+    padding-left:10px;
+    font-size: 0.8em;
+    border:none;
+    border-radius:5px;
+    width: 100px;
+    margin:5px;
+    align-self: center;
+    display:flex;
+    justify-content: space-between;
+}
+
+.countryList {
+    margin-top:10px;
+    padding:24px;
+    display:flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.close {
+    border-radius:2px;
+    background-color: rgb(255, 255, 255);
+    font-size: 0.6em;
+    width:1.2em;
+    height:1.5em;
+    text-align: center;
+    padding: 2px;
+    transition: ease 0.2s;
+}
+
+.close:hover {
+    background-color: rgb(24, 23, 23);
+    color:white
+}
+

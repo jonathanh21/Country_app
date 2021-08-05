@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Bree Serif";
+    src: url("../../../fonts/Bree_Serif/BreeSerif-Regular.ttf");
+  }
+
+.input {
+    height:2rem;
+    border-radius: 5px;
+    border:none;
+    width:70%;
+    padding-left:8px;
+    font-family:"Bree Serif"
+}
+
+.container {
+    width:40%;
+    justify-self:end
+}
+
+.button {
+    margin-left:10px;
+    background-color: rgba(221, 201, 23, 0.959);
+    height: 2rem;
+    width: 4rem;
+    border:none;
+    border-radius: 5px;
+    transition: all 0.1s ease-out;
+    color:white;
+    font-family: "Bree Serif";
+    text-align: center;
+}
+
+.button:active {
+    background-color: rgba(66, 184, 178, 0.596);
+}
